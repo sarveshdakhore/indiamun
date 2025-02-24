@@ -1,0 +1,48 @@
+.main-container {
+	max-width: 99vw;
+  margin: 20px;
+}
+
+.Aff-button {
+	width: 300px;
+	padding: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border: none;
+  font-size: 20px;
+	font-weight: 700;
+	border-radius: 10px;
+	background-color: rgb(0, 120, 225);
+	color: #fff;
+}
+
+.Aff-button:hover {
+  background-color: rgb(0, 47, 66);
+  transition-duration: 450ms;
+  transition-delay: 75ms;
+}
+
+.content {
+	/* border: 1px solid rgb(128, 123, 123); */
+	padding: 0.5rem;
+	/* border-radius: 5px; */
+  background-image: none;
+}
+
+.content-parent {
+	height: 0px;
+	overflow: hidden;
+	transition: height ease 0.9s;
+}
+
+.content-show {
+	height: 80vh;
+}
+
+@media (max-width: 768px) {
+	/* .content-parent {
+    height: auto !important; 
+    max-height: 200px !important; 
+    overflow-y: auto !important;
+  } */
+}
