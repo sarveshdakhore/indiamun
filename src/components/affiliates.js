@@ -252,11 +252,13 @@ export default function Affiliates() {
 
   const handleSendDetailsClick = () => {
     //window.open('https://forms.gle/GVsnHqJ4gKBzGf2H6', '_blank');
-    window.open('https://forms.gle/5zKETUPNbzvpfezE9', '_blank');
+    //window.open('https://forms.gle/5zKETUPNbzvpfezE9', '_blank');
+    window.open('https://indiamun.org/affiliationform', '_blank');
   }
 
   const handleInvitationClick = () => {
-    window.open('https://forms.gle/5zKETUPNbzvpfezE9', '_blank');
+    //window.open('https://forms.gle/5zKETUPNbzvpfezE9', '_blank');
+    window.open('https://indiamun.org/affiliationform', '_blank');
   }
 
   // const handleFilechange=(e)=>{
