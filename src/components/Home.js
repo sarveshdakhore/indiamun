@@ -310,7 +310,7 @@ export default function Home() {
             <span>Registrations Open!</span>
             <div className='button_div_climate'>
               <div className='button_div_climate1'> 
-                <a href='/ylp'><button className='ylp-homepage-btn right-button'>Enroll Now</button></a>
+                <a target='_blank' href='https://earthgeeks.indiamun.org/courses/Youth-Leadership-Program-66347e4fa2ec48292c1cd88c'><button className='ylp-homepage-btn right-button'>Enroll Now</button></a>
               </div>
             </div>
             {/* <p style={{padding:'5px',color:'rgb(190, 49, 174)'}}>July 2023</p> */}
@@ -320,7 +320,7 @@ export default function Home() {
             <p className='reg_open'>Registrations Open!</p>
             <div className='button_div_climate'>
               <div className='button_div_climate1'> 
-                <a href='/events'><button className='right-button'>Enroll Now</button></a>
+                <a target='_blank' href='https://earthgeeks.indiamun.org/courses/Indias-Young-Forest-Ambassador-Program-6630115c6dd46552c99d8120'><button className='right-button'>Enroll Now</button></a>
               </div>
             </div>
           </div>

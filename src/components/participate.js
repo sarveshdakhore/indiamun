@@ -84,7 +84,7 @@ export default function Participate() {
       <div className='participate'>
         <div className='participate-item'>
           <img src={p1}></img>
-          <a href='/events'><button>Registrations Open</button></a>
+          <a target='_blank' href='https://earthgeeks.indiamun.org/courses/Indias-Young-Forest-Ambassador-Program-6630115c6dd46552c99d8120'><button>Registrations Open</button></a>
           <p>
             Program Fee: 
             ₹3,999
@@ -92,7 +92,7 @@ export default function Participate() {
         </div>
         <div className='participate-item'>
           <img src={p2}></img>
-          <a href='/ylp'><button >Registrations Open</button></a>
+          <a target='_blank' href='https://earthgeeks.indiamun.org/courses/Youth-Leadership-Program-66347e4fa2ec48292c1cd88c'><button >Registrations Open</button></a>
           <p>
             Program Fee:
             ₹5,999
