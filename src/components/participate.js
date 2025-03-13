@@ -151,7 +151,7 @@ export default function Participate() {
           <img src={forestam} ></img>
           <div className='reg_school_clg_fa'>
             <span>Registrations Open</span>
-            <a href='/events'><button className='lm-btn'>Enroll Now</button></a>
+            <a target='_blank' href='https://earthgeeks.indiamun.org/courses/Indias-Young-Forest-Ambassador-Program-6630115c6dd46552c99d8120'><button className='lm-btn'>Enroll Now</button></a>
             {/* <a><button onClick={handleSignIN} >Colleges</button></a> */}
           </div>
         </div>
@@ -254,7 +254,7 @@ Get ready to unleash your fundraising potential and become a passionate advocate
         </div>
         <div className="reg-info">
           <h2>Registrations Open</h2>
-          <a href="/ylp"><button>Enroll Now</button></a>
+          <a target='_blank' href="https://earthgeeks.indiamun.org/courses/Youth-Leadership-Program-66347e4fa2ec48292c1cd88c"><button>Enroll Now</button></a>
         </div>
       </div>
       {/* <div className='ylp-school-pic'> */}
