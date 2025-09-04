@@ -38,6 +38,7 @@ import YlpCourse from './components/YlpCourse';
 import { Toaster } from 'react-hot-toast';
 import WorkWithUs from './components/WorkWithUs';
 import IM2024Winners from './components/IM2024Winners';
+import ShippingPolicy from './components/ShippingPolicy.js';
 const cors = require('cors')({ origin: true });
 
 
@@ -64,6 +65,7 @@ function App() {
         <Route path='/conference' element={<Conference />} />
         <Route path='/privacy-policy' element={<Privacy_Policy />} />
         <Route path='/terms-policy' element={<TandC />} />
+        <Route path='/shipping-policy' element={<ShippingPolicy />} />
         <Route path='/refund-policy' element={<Refund_Policy />} />
         <Route path='/contact-us' element={<ContactUs />} />
         <Route path='/work' element={<WorkWithUs />} />

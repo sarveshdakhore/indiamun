@@ -55,18 +55,15 @@ const ContactUs = () => {
 
       <Navbar />
 
-      <h1 className="contact-us-heading">CONTACT US</h1>
-      <div className="contact-us-main-container">
-        <form onSubmit={handleSubmit}>
-          <div className="contact-us-form-items">
-            <div className='contact-us-items-form'>Name: <input type='text' value={name} onChange={(e) => setName(e.target.value)} required id="contact-name"></input></div>
-            <div className='contact-us-items-form'>Email: <input type='text' value={email} onChange={(e) => setEmail(e.target.value)} required id="contact-email"></input></div>
-            <div className='contact-us-items-form'>Message: <textarea type='text' value={message} rows={4} onChange={(e) => setMessage(e.target.value)} required id="contact-name"></textarea></div>
-          </div>
-          <div className="contact-us-button">
-            <button type='submit' className="">Submit</button>
-          </div>
-        </form>
+      <div className='main-policy-container'>
+        <h2 className='policy-title'>Contact Us</h2>
+        <p className="policy-text">
+          You may contact us using the information below: <br /><br />
+          Merchant Legal entity name: Gaiaditya Enterprises Private Limited.<br />
+          Registered Address: No 513. Ground Floor, 3rd B Main, Bhuvanagiri, Banaswadi, Bangalore, Karnataka, India Bangalore KARNATAKA 560043<br />
+          Operational Address: #615/a, First Cross, Domlur Layout, Bangalore Bangalore KARNATAKA 560071 <br /> 
+          E-Mail ID: secretariat@indiamun.org , munofindia@gmail.com
+        </p>
       </div>
 
       <Footer />

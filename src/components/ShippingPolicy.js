@@ -5,7 +5,7 @@ import left_img from './images/INDIAMUN/logo left.webp'
 import right_img from './images/INDIAMUN/logo right.webp'
 import Footer from './footer.js'
 
-const Refund_Policy = () => {
+const ShippingPolicy = () => {
   return (
     <>
       <div className='top_comp'>
@@ -17,9 +17,9 @@ const Refund_Policy = () => {
       <Navbar />
 
       <div className='main-policy-container'>
-        <h2 className='policy-title'>Cancellation & Refund Policy</h2>
+        <h2 className='policy-title'>Shipping & Delivery Policy</h2>
         <p className="policy-text">
-          No cancellations & Refunds are entertained.
+          Shipping is not applicable for business.
         </p>
       </div>
 
@@ -28,4 +28,4 @@ const Refund_Policy = () => {
   )
 }
 
-export default Refund_Policy
+export default ShippingPolicy
