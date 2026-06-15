@@ -7,7 +7,7 @@ import right_img from './images/INDIAMUN/logo right.webp'
 import Footer from './footer'
 import {useAuthContext} from './hooks/useAuthContext'
 import { useLogout } from './hooks/useLogout'
-import Razorpay from 'razorpay'
+// import Razorpay from 'razorpay'
 import rzpqr from './images/newimages/rpqr.webp'
 import rzpqr1 from './images/newimages/Untitled design.PNG'
 import {saveAs} from 'file-saver'
@@ -15,7 +15,7 @@ import {useFirestore} from './hooks/useFirestore'
 import CreatePlan from '../api/createPlan'
 import MyComponent from '../api/createSubs'
 
-const cors = require('cors')({ origin: true });
+// const cors = require('cors')({ origin: true });
 
 
 

@@ -21,7 +21,7 @@ import {
   storeRegisteredUsersYLPInfo,
 } from "./firebase/config";
 import Cookies from "js-cookie";
-import Razorpay from "razorpay";
+// import Razorpay from "razorpay";
 
 export default function Ylpa() {
   const { user } = useAuthContext();

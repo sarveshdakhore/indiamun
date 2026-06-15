@@ -39,7 +39,6 @@ import { Toaster } from 'react-hot-toast';
 import WorkWithUs from './components/WorkWithUs';
 import IM2024Winners from './components/IM2024Winners';
 import ShippingPolicy from './components/ShippingPolicy.js';
-const cors = require('cors')({ origin: true });
 
 
 function App() {

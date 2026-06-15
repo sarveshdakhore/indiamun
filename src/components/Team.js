@@ -4,7 +4,7 @@ import council0 from './images/mun/Mr Ovais Sarmad, Deputy Executive Secretary U
 import council1 from './images/mun/council-1.webp';
 import council2 from './images/mun/council-2.webp';
 import council3 from './images/mun/council-3.webp';
-import council3dot5 from './images/babu padmanandan.jpg';
+import council3dot5 from './images/babu padmanandan new.jpeg';
 import council4 from './images/mun/council-4.webp';
 import council5 from './images/mun/council-5.webp';
 import council6 from './images/mun/council-6.webp';

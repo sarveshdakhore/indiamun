@@ -7,9 +7,6 @@ import Footer from './footer.js'
 import { projectFirestore } from './firebase/config';
 import { useFirestore } from './hooks/useFirestore';
 
-
-const cors = require('cors')({ origin: true });
-
 const ContactUs = () => {
 
   const [name, setName] = useState('')

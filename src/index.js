@@ -7,7 +7,6 @@ import { UserAuthContextProvider } from './components/context/AuthContext';
 import { createPlan, createSubs } from './api/api1';
 import { Toaster } from 'react-hot-toast';
 // import dotenv
-require('dotenv').config();
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

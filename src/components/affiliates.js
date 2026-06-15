@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Razorpay from 'razorpay'
+// import Razorpay from 'razorpay'
 import Navbar from './navbar'
 import left_img from './images/INDIAMUN/logo left.webp'
 import right_img from './images/INDIAMUN/logo right.webp'
@@ -73,8 +73,6 @@ import Collapsible from './Collapsible.js';
 import Testimonial from './Testimonial';
 import Carousel from 'react-grid-carousel';
 
-
-const cors = require('cors')({ origin: true });
 //  key_id: 'rzp_test_PMB2gNZwOxf6k7',
 // key_secret: 'imS3TrFFPCEQizhgBmGkaZiZ',
 

@@ -27,7 +27,7 @@ import IYFA_Main_Image from "./images/iyfa/IYFA image .webp";
 import prakritidp from "./images/pics/pc.webp";
 import { firebaseAuth, firebaseT, storeUserInfo } from "./firebase/config";
 import { useLogin } from "./hooks/useLogin";
-import Razorpay from "razorpay";
+// import Razorpay from "razorpay";
 import firebase from "firebase/compat/app";
 import "firebase/compat/firestore";
 import "firebase/compat/auth";
